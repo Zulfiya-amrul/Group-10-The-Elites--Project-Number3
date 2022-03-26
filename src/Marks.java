@@ -20,7 +20,7 @@
     // (class extends to class) (class implements to interfase)
     class A extends Marks {
         //3 subject variables
-        double sub1, sub2, sub3;
+         private double sub1, sub2, sub3;
 
         // creating a constructor with the above variables
         public A(double sub1, double sub2, double sub3) {
@@ -39,7 +39,7 @@
     // class extends
     class B extends Marks {
         // providing 4 variables for this class
-        double sub1, sub2, sub3, sub4;
+     private  double sub1, sub2, sub3, sub4;
 
         // creating a constructor for the given variables
         public B(double sub1, double sub2, double sub3, double sub4) {
